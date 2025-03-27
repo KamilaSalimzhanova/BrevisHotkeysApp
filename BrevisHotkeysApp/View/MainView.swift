@@ -14,11 +14,12 @@ struct MainView: View {
         NavigationStack {
             Form {
                 List(viewModel.hotKeyCategoryViewModel) { hotKeyCategory in
-                    Text(hotKeyCategory.name)
+                    HotKeySectionView(hotKeyCategoryName: hotKeyCategory.name, hotKeyModels: hotKeyCategory.hotkeymodel, searchQuery: searchQuery)
                 }
             }
             .navigationTitle("Hot Keys")
             .searchable(text: $searchQuery, prompt: "Search ")
+            KeySymbolView()
         }
     }
 }
