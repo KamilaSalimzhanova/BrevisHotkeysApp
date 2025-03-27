@@ -13,6 +13,10 @@
 		8EFF4B6E2D95DE2100DDAC36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF4B6D2D95DE2100DDAC36 /* Preview Assets.xcassets */; };
 		8EFF4B792D95DE8B00DDAC36 /* HotkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B782D95DE8B00DDAC36 /* HotkeyModel.swift */; };
 		8EFF4B7B2D95DEF600DDAC36 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B7A2D95DEF600DDAC36 /* Modifier.swift */; };
+		8EFF4B7D2D95E09C00DDAC36 /* HotkeyCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B7C2D95E09C00DDAC36 /* HotkeyCategoryModel.swift */; };
+		8EFF4B7F2D95E0F300DDAC36 /* HotkeyCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B7E2D95E0F300DDAC36 /* HotkeyCategoryViewModel.swift */; };
+		8EFF4B812D95E4C100DDAC36 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B802D95E4C100DDAC36 /* MainView.swift */; };
+		8EFF4B832D95E5B500DDAC36 /* HotKeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF4B822D95E5B500DDAC36 /* HotKeySectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		8EFF4B6D2D95DE2100DDAC36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EFF4B782D95DE8B00DDAC36 /* HotkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyModel.swift; sourceTree = "<group>"; };
 		8EFF4B7A2D95DEF600DDAC36 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		8EFF4B7C2D95E09C00DDAC36 /* HotkeyCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyCategoryModel.swift; sourceTree = "<group>"; };
+		8EFF4B7E2D95E0F300DDAC36 /* HotkeyCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyCategoryViewModel.swift; sourceTree = "<group>"; };
+		8EFF4B802D95E4C100DDAC36 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = BrevisHotkeysApp/View/MainView.swift; sourceTree = SOURCE_ROOT; };
+		8EFF4B822D95E5B500DDAC36 /* HotKeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeySectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				8EFF4B782D95DE8B00DDAC36 /* HotkeyModel.swift */,
+				8EFF4B7C2D95E09C00DDAC36 /* HotkeyCategoryModel.swift */,
 				8EFF4B7A2D95DEF600DDAC36 /* Modifier.swift */,
 			);
 			path = Model;
@@ -87,6 +96,7 @@
 		8EFF4B752D95DE5F00DDAC36 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8EFF4B7E2D95E0F300DDAC36 /* HotkeyCategoryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -94,6 +104,8 @@
 		8EFF4B762D95DE7A00DDAC36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8EFF4B802D95E4C100DDAC36 /* MainView.swift */,
+				8EFF4B822D95E5B500DDAC36 /* HotKeySectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,9 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFF4B7B2D95DEF600DDAC36 /* Modifier.swift in Sources */,
+				8EFF4B812D95E4C100DDAC36 /* MainView.swift in Sources */,
 				8EFF4B792D95DE8B00DDAC36 /* HotkeyModel.swift in Sources */,
+				8EFF4B7F2D95E0F300DDAC36 /* HotkeyCategoryViewModel.swift in Sources */,
 				8EFF4B692D95DE2000DDAC36 /* ContentView.swift in Sources */,
 				8EFF4B672D95DE2000DDAC36 /* BrevisHotkeysAppApp.swift in Sources */,
+				8EFF4B832D95E5B500DDAC36 /* HotKeySectionView.swift in Sources */,
+				8EFF4B7D2D95E09C00DDAC36 /* HotkeyCategoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
